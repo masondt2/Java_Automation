@@ -1,0 +1,35 @@
+Git_Learning
+
+1. Các câu lệnh cơ bản:
+
+- Mở thư mục muốn truy cập >> Chuột phải >> chọn Open Git Bash Here
+
+- cd .. : quay về thư mục cha (1 cấp) so với thư mục đang truy cập
+
+- cd "Tên Folder" : truy cập vào thư mục đó
+
+- clear : clear màn hình
+
+- dir : hiển thị tất cả tập tin và folder  
+
+- ls : Giống dir nhưng hiển thị thêm chi tiết
+
+- mkdir "folder name" : tạo ra thư mục mới
+
+- touch "tên File" : tạo tập tin mới >> Nếu tên File trùng nhau thì ko ghi đè được !!!
+
+- echo : in/xuất 1 nội dung nào đó
+
+- echo "Text" > "Tên File" : ghi "Text" đè lên "Tên File"
+
+- echo "Text" >> "Tên File" : ghi new line
+
+- cat : hiển thị nội dung ra Git bash
+
+- diff file1 file2 : so sanh khác biệt giữa file 1 và file 2
+
+- rm "File name" : xóa 1 tập tin
+
+- rm -d "Ten thu muc" : xóa thư mục RỖNG 
+
+- rm -r "Tên thư mục" : xóa thư mục có dữ liệu

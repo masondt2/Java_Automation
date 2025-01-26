@@ -1,0 +1,20 @@
+----------------------Git Learning--------------------------
+Bài 6 : Làm việc với kho dữ liệu trung tâm ( CENTRAL REPOSITORY or REMOTE REPOSITORY )
+
+- git init --bare: Tạo 1 central repo
+
+- git clone [repo_name] [clone_name] : sao chép và liên kết repo_name
+
+- git fetch : Lấy các thông tin về commit mới từ central
+
+- git pull: lấy dữ liệu từ central về local repo
+
+- git push: đẩy các commit từ local lên central
+
+
+-------
+
+BTap: 
+
+
+Dev1    >>>>>>>>>>>>>>>>>>>>>>>> Central >>>>>>>>>>>>>>>>>>>>>>>>>> Dev 2

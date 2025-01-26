@@ -1,0 +1,4 @@
+---------------------------Git Learning----------------------------
+Bài 7: Xử Lý Xung Đột MERGE CONFLICT 
+
+>> Push >> Pull >> Xử lý bằng tay >> xóa các phần >>> <<< sau đó lưu lại

@@ -1,0 +1,25 @@
+---------------Git Learning -----------------
+Bai3: 
+
+Câu hỏi : - Ai thực hiện ?
+	- Khi nào ?
+	- Cái gì ?
+
+1. Tạo repository mới : git init EX2 / cd EX2
+
+2. Xem Cấu hình: git config -l
+
+3. Xem cấu hình global: git config -l --global
+
+4. Xem cấu hình local: git config -l --local
+
+5. Cấu hình (global) 'user.name'
+
+	>> git config --global user.name "Nguyen Trung Ngoc"
+
+
+6. Cấu hình (global) 'user.email'
+
+	>> git config --global user.email "trungngocdt2@gmail.com"
+
+7.8 Lặp lại cấu hình nhưng cho local

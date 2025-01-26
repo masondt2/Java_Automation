@@ -1,0 +1,44 @@
+--------- Git Learning ---------------
+Bai2:
+
+- repository (repo) : Kho lưu trữ
+
+- commit : 1 đơn vị làm việc 
+
+- branch : nhánh 
+
+- main / master : tên của repo chính (main repo)
+
+- merge / rebase : kết hợp 2 nhánh
+
+- develop : tên của nhánh / 1 lập trình viên 
+
+
+>> câu lệnh cấu hình 1 dự án Git:
+
+- git --help : hiển thị hướng dẫn, trợ giúp
+
+- git --version : hiển thị thông tin phiên bản git
+
+- git status : hiển thị trạng thái kho lưu trữ
+
+- git log : hiển thị lịch sử các commit
+
+- git init [repo name] : tạo ra 1 kho lưu trữ
+
+- git clone [repo name] [clone name] : để tạo 1 bản sao được liên kết với repo
+
+- git config -l : xem cấu hình hiện tại
+
+- git config -l [--scope] [option_name] [value] : 
+
+  + scope: -- system : tất cả người dùng 
+	   -- global : liên quan đến repo(s)
+           - local : liên quan đến 1 repo
+
+>> Thực hành : 
+ 1. Chọn thư mục 
+2. Git Bash
+3. git init Ex1
+4. cd Ex1
+5. ktra thông tin bên trong 

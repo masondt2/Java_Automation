@@ -1,0 +1,17 @@
+-------------------Git Learning----------------------
+Bài 5 : Git ignore
+
+Khi làm việc, có nhiều file dc tạo ra mà ko có ý nghĩa sdung , vdu : Thumbs.db , log, ThuMuc nào đó ...
+
+>> dùng Ignore 
+
+# Bỏ qua file log: 
+
+*.log 
+
+# Bỏ qua thư mục:
+
+mode1/
+
+# Tên file:
+Read.txt

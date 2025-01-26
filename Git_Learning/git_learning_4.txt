@@ -1,0 +1,29 @@
+--------------------Git Learning----------------------
+Bai 4: 
+
+3 trạng thái của Git
+Câu lệnh : add, commit, status, diff, log
+
+
+--------
+
+* 3 trạng thái: 3 cây
+-- WORKING DIRECTORY >> git add >> STAGING AREA >> git commit >> REPOSITORY
+
+				    INDEX			   HEAD (mã eb12387)
+
+
+
+-----------------
+Câu lệnh:
+
+- git add [file name(s)] : Thêm tệp vào Index
+  git add . : Thêm tệp (tất cả)
+
+- git commit -m "Nội dung ghi chú" : Tạo 1 commit vào Repo
+
+- git status : sự khác biệt giữa 3 cây 
+
+- git diff : so sánh với commit cuối cùng
+
+- git log : để xem lịch sử
