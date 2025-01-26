@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Test Parameter">
+    <test name="Test parameter">
+        <parameter name="mark1" value="60"/>
+        <parameter name="mark2" value="40"/>
+        <classes>
+            <class name="exercise2.CheckPassFailTest">
+                <methods>
+                    <include name="testCheckPassFail1"/>
+                    <include name="testCheckPassFail2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

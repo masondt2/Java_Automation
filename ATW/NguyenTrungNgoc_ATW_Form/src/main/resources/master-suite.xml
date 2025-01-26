@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="MasterSuite" parallel="false">
+    <suite-files>
+        <suite-file path="TC1_VerifyLoginPage.xml" />
+        <suite-file path="TC2_VerifyPlan.xml" />
+
+    </suite-files>
+</suite>

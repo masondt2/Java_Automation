@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Test Data Provider">
+    <test name="Test Data Provider">
+        <classes>
+            <class name="exercise3.DataProviderSample"/>
+        </classes>
+    </test>
+</suite>

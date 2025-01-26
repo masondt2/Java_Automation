@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Verify Product Units">
+    <test name="Verify Product Units">
+        <classes>
+            <class name="Assignment8.test.EX2_VerifyProductUnit">
+            </class>
+        </classes>
+    </test>
+</suite>

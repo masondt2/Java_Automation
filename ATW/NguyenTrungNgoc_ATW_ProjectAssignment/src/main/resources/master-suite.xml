@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="MasterSuite" parallel="false">
+    <suite-files>
+        <suite-file path="TC1_VerifyLoginPage.xml" />
+        <suite-file path="TC2_VerifySuccessLoggedIn.xml" />
+        <suite-file path="TC3_VerifyListProducts.xml" />
+        <suite-file path="TC4_VerifyViewProductDetail.xml" />
+        <suite-file path="TC5_VerifyEditProduct.xml" />
+        <suite-file path="TC6_VerifyPrintBarcodeLabel.xml" />
+        <suite-file path="TC7_VerifyCreatePrintBarcode.xml" />
+        <suite-file path="TC8_VerifyAddSale.xml" />
+        <suite-file path="TC9_VerifyPurchasesList.xml" />
+        <suite-file path="TC10_VerifyAddPurchases.xml" />
+    </suite-files>
+</suite>

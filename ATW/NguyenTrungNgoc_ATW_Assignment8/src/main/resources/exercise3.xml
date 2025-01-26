@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="VerifyAddProduct">
+    <test name="VerifyAddProduct">
+        <classes>
+            <class name="Assignment8.test.EX3_VerifyAddProduct">
+            </class>
+        </classes>
+    </test>
+</suite>

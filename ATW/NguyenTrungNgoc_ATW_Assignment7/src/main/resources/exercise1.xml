@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Exercise1" parallel="Tests" thread-count="2">
+    <test name="Sceranio1_ChromeBrowser">
+        <parameter name="browser" value="chrome">
+        </parameter>
+        <classes>
+            <class name="exercise1.Sceranio1">
+            </class>
+        </classes>
+    </test>
+    <test name="Sceranio1_FirefoxBrowser">
+        <parameter name="browser" value="firefox">
+        </parameter>
+        <classes>
+            <class name="exercise1.Sceranio1">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Sceranio2_FirefoxBrowser">
+        <parameter name="browser" value="firefox">
+        </parameter>
+        <classes>
+            <class name="exercise1.Sceranio2">
+            </class>
+        </classes>
+    </test>
+    <test name="Sceranio2_ChromeBrowser">
+        <parameter name="browser" value="chrome">
+        </parameter>
+        <classes>
+            <class name="exercise1.Sceranio2">
+            </class>
+        </classes>
+    </test>
+</suite>

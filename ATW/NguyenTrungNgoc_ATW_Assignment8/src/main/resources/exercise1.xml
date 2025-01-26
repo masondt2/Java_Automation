@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Login Functionality">
+    <test name="EX1_TC1_ValidEmailPassword">
+        <classes>
+            <class name="Assignment8.test.EX1_TC1_ValidEmailPassword">
+            </class>
+        </classes>
+    </test>
+    <test name="EX1_TC2_InvalidEmailPassword">
+        <classes>
+            <class name="Assignment8.test.EX1_TC2_InvalidEmailPassword">
+            </class>
+        </classes>
+    </test>
+    <test name="EX1_TC3_EmptyEmail">
+        <classes>
+            <class name="Assignment8.test.EX1_TC3_EmptyEmail">
+            </class>
+        </classes>
+    </test>
+</suite>

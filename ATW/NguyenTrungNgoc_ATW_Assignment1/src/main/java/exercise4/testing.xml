@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Testing Grouping">
+    <test name="Testing Grouping">
+        <groups>
+            <run>
+                <include name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="exercise4.TestNGGrouping"/>
+        </classes>
+    </test>
+</suite>

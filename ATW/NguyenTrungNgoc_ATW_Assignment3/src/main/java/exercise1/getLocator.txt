@@ -1,0 +1,32 @@
+https://dokans.online/login
+
+1. Email Address Text Box:
+- Id : "email"
+- Name: "email"
+- ClassName: "form-control"
+- Xpath: "//input[@type='email']"
+
+2. Password Text Box:
+- Id: "password"
+- Name: "password"
+- ClassName: "form-control"
+- Xpath: "//input[@type='password']"
+
+3.Remember Me check box
+- Id: none
+- Name: none
+- ClassName: "custom-control-label"
+- Xpath: "//label[@class='custom-control-label']"
+
+4.Login button
+- Id: none
+- Name: none
+- ClassName: "form-group"
+- Xpath: "//button[@type='submit']"
+
+5.Forgot Password
+- Id: none
+- Name: none
+- ClassName: "float-right"
+- Xpath: "//a[@class='text-small']"
+ 
