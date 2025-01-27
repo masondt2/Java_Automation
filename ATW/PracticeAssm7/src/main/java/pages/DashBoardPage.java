@@ -11,21 +11,19 @@ public class DashBoardPage extends BasePage {
         super(d);
     }
 
-    @FindBy(xpath = "//li[@class='breadcrumb-item active']")
+    @FindBy(xpath = "(//div[@class='subheader py-2 py-lg-6 subheader-solid'])[1]")
     private WebElement dashboardTitle;
 
-    @FindBy(xpath = "//span[normalize-space()='Catalog']")
+    @FindBy(xpath = "//span[normalize-space()='Catalog']/..")
     private WebElement catalogMenu;
 
-    @FindBy(xpath = "//span[normalize-space()='Product Brands']")
+    @FindBy(xpath = "//span[normalize-space()='Product Brands']/..")
     private WebElement productBrands;
 
-    public boolean isDashBoardPagePresent(){
-        return dashboardTitle.isDisplayed();
-    }
-
-    public void navigateToProductBrandsPage(){
-        getWebDriverWait().until(ExpectedConditions.visibilityOf(catalogMenu));
+    public void navigateToProductBrandsPage() throws InterruptedException {
+        //getWebDriverWait().until(ExpectedConditions.visibilityOf(catalogMenu));
+        getWebDriverWait().until(ExpectedConditions.elementToBeClickable(catalogMenu));
+        Thread.sleep(1000);
         catalogMenu.click();
 
         getWebDriverWait().until(ExpectedConditions.visibilityOf(productBrands));

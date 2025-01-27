@@ -3,12 +3,18 @@
         <parameter name="browser" value="chrome" />
         <classes>
             <class name="tests.TC_VerifyProductBrand" />
+                <methods>
+                    <include name="TC_VerifyPlan_Chrome"/>
+                </methods>
         </classes>
     </test>
     <test name="FirefoxTest">
         <parameter name="browser" value="firefox" />
         <classes>
             <class name="tests.TC_VerifyProductBrand" />
+            <methods>
+                <include name="TC_VerifyPlan_FireFox"/>
+            </methods>
         </classes>
     </test>
 </suite>
