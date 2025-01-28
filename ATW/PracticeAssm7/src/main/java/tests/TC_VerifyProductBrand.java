@@ -26,6 +26,8 @@ public class TC_VerifyProductBrand extends BaseTest {
 
         productBrandsPage.inputBrandNameChrome();
 
+        Assert.assertTrue(productBrandsPage.verifyChromeProductBrandCreateSuccess());
+
         System.out.println("==================");
     }
 
@@ -42,6 +44,8 @@ public class TC_VerifyProductBrand extends BaseTest {
         ProductBrandsPage productBrandsPage = new ProductBrandsPage(getDriver());
 
         productBrandsPage.inputBrandNameFireFox();
+
+        Assert.assertTrue(productBrandsPage.verifyFireFoxProductBrandCreateSuccess());
 
         System.out.println("==================");
     }

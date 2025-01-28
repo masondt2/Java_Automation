@@ -23,7 +23,7 @@ public class BasicMethod {
 //    js.executeScript("arguments[0].scrollIntoView(true);", submitButtonElement);
 
     //enter
-//    Actions actions = new Actions(getDriver());
+  //  Actions actions = new Actions(getDriver());
 //    actions.sendKeys(Keys.ENTER).perform();
 //
     public static void ScrollToElement(WebDriver driver, WebElement element) {
