@@ -20,6 +20,9 @@ public class DashBoardPage extends BasePage {
     @FindBy(xpath = "//span[normalize-space()='Product Brands']/..")
     private WebElement productBrands;
 
+    @FindBy(xpath = "(//span[normalize-space()='Product Categories'])[1]/..")
+    private WebElement productCategory;
+
     public void navigateToProductBrandsPage() throws InterruptedException {
         //getWebDriverWait().until(ExpectedConditions.visibilityOf(catalogMenu));
         getWebDriverWait().until(ExpectedConditions.elementToBeClickable(catalogMenu));
@@ -28,5 +31,14 @@ public class DashBoardPage extends BasePage {
 
         getWebDriverWait().until(ExpectedConditions.visibilityOf(productBrands));
         productBrands.click();
+    }
+
+    public void navigateToProductCategoriesPage() throws InterruptedException {
+        getWebDriverWait().until(ExpectedConditions.elementToBeClickable(catalogMenu));
+        Thread.sleep(2000);
+        catalogMenu.click();
+
+        getWebDriverWait().until(ExpectedConditions.elementToBeClickable(productCategory));
+        productCategory.click();
     }
 }

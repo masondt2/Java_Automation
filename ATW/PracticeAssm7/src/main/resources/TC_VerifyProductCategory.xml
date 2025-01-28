@@ -1,0 +1,20 @@
+<suite name="FinalTest" parallel="Tests" thread-count="2">
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="tests.TC_VerifyProductCategory" />
+                <methods>
+                    <include name="TC_VerifyProductCategory_Chrome"/>
+                </methods>
+        </classes>
+    </test>
+    <test name="FirefoxTest">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="tests.TC_VerifyProductCategory" />
+            <methods>
+                <include name="TC_VerifyProductCategory_FireFox"/>
+            </methods>
+        </classes>
+    </test>
+</suite>
