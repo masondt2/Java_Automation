@@ -47,6 +47,7 @@ public class Exercise2 {
 
         Assert.assertEquals(lstCourse.size(), 11, "Course list should have 11 elements");
         driver.switchTo().window(WindowID);
+        //driver.switchTo().defaultContent();
 
         driver.quit();
     }
