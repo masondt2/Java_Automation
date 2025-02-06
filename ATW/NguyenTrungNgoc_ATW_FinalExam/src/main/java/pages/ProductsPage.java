@@ -2,6 +2,7 @@ package pages;
 
 import core.BasePage;
 import core.BasicMethod;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -21,7 +22,7 @@ public class ProductsPage extends BasePage {
     @FindBy(xpath = "//table[@id='pc-dt-satetime-sorting']/tbody/tr")
     private List<WebElement> listProductsDisplayedElement;
 
-    @FindBy(xpath = "//a[@class='btn btn-sm btn-icon  btn-primary me-2']")
+    @FindBy(xpath = "//a[@href='https://demo.workdo.io/storego-saas/product/create']")
     private WebElement createButtonElement;
 
     @FindBy(xpath = "//input[@id='name']")
@@ -84,6 +85,11 @@ public class ProductsPage extends BasePage {
         BasicMethod.ScrollToElement(getDriver(),saveElement);
         Thread.sleep(2000);
         saveElement.click();
+
+//        JavascriptExecutor js = (JavascriptExecutor) getDriver();
+//        js.executeScript("window.stop();");
+
+        System.out.println("OKE already displayed");
     }
 
     public boolean VerifyMessageSaveProduct(String messageVerify) throws InterruptedException {
