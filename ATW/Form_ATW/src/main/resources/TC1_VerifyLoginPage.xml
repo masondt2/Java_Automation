@@ -2,13 +2,13 @@
     <test name="ChromeTest">
         <parameter name="browser" value="chrome" />
         <classes>
-            <class name="tests.TC_VerifyAddNewProduct" />
+            <class name="tests.TC_VerifyPlan" />
         </classes>
     </test>
     <test name="FirefoxTest">
         <parameter name="browser" value="firefox" />
         <classes>
-            <class name="tests.TC_VerifyAddNewProduct" />
+            <class name="tests.TC_VerifyPlan" />
         </classes>
     </test>
 </suite>

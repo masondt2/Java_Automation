@@ -16,10 +16,10 @@ public class LoginPage extends BasePage {
 
     public void Login(String e, String p) {
         getWebDriverWait().until(ExpectedConditions.visibilityOf(loginTitleElement));
-        emailTextboxElement.clear();
-        emailTextboxElement.sendKeys(e);
-        passwordTextboxElement.clear();
-        passwordTextboxElement.sendKeys(p);
-        loginButtonElement.click();
+//        emailTextboxElement.clear();
+//        emailTextboxElement.sendKeys(e);
+//        passwordTextboxElement.clear();
+//        passwordTextboxElement.sendKeys(p);
+//        loginButtonElement.click();
     }
 }

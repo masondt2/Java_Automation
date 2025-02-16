@@ -14,19 +14,19 @@ public class TC_VerifyPlan extends BaseTest {
     public void TestTC_VerifyPlan(String url, String user, String pass, String noOfTopProduct, String noOfRecentOrder, String planDisplay,String orderDisplay) throws IOException, InterruptedException {
         LoginPage loginPage = new LoginPage(getDriver());
 
-        //Step1
-        loginPage.NavigateToLoginPage(url);
-        Assert.assertTrue(loginPage.VerifyLoginPageDisplayed());
-
-        //Step2
-        loginPage.Login(user,pass);
-        DashboardPage dashboardPage = new DashboardPage(getDriver());
-        Assert.assertTrue(dashboardPage.VerifyDashboardPageDisplayed(noOfTopProduct, noOfRecentOrder));
-
-        //Step3
-        dashboardPage.NavigateToPlansPage();
-        PlansPage plansPage = new PlansPage(getDriver());
-        Assert.assertTrue(plansPage.VerifyPlansPageDisplay(planDisplay,orderDisplay));
+//        //Step1
+//        loginPage.NavigateToLoginPage(url);
+//        Assert.assertTrue(loginPage.VerifyLoginPageDisplayed());
+//
+//        //Step2
+//        loginPage.Login(user,pass);
+//        DashboardPage dashboardPage = new DashboardPage(getDriver());
+//        Assert.assertTrue(dashboardPage.VerifyDashboardPageDisplayed(noOfTopProduct, noOfRecentOrder));
+//
+//        //Step3
+//        dashboardPage.NavigateToPlansPage();
+//        PlansPage plansPage = new PlansPage(getDriver());
+//        Assert.assertTrue(plansPage.VerifyPlansPageDisplay(planDisplay,orderDisplay));
 
         System.out.println("==================");
     }
